@@ -232,7 +232,7 @@ namespace Student
             return !(a == b);
         }
 
-        public object Clone()
+        public Student Clone()
         {
             return new Student(this.FirstName, this.MiddleName, this.LastName, this.SSN, this.PermanentAddress,
                 this.Phone, this.Email, this.Course, this.University, this.Faculty, this.Speciality);
